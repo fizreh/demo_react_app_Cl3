@@ -46,7 +46,7 @@ jobs:
       
       #Deploy surge
     - name: Deploy React App To Surge
-      run: surge ./build demo_react_app_Faiza.sh --token ${{secrets.surge_token }}
+      run: surge ./build demo-react-app-Faiza.surge.sh --token ${{secrets.surge_token }}
       
      
        
