@@ -9,3 +9,5 @@ return "Hello World" + name;
 
 function Hello({firstName}) {
 return <p className='myname'><strong>This is Para in Hello in Tag name: {firstName}</strong></p>
+}
+export default Hello;
