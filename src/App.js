@@ -5,6 +5,7 @@ import Hello from './Hello';
 function App({name,age}) {
 return <div>Hello from App.js updated {name} Age = {age-10}
 <br/>
+<br/>
 <Hello firstName={name}></Hello>
 </div>
   
